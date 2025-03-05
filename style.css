@@ -8,11 +8,49 @@
 }
 
 .sidebar {
-    background-color: lightblue;
+    background-color: rgb(54, 169, 241);
     height: 100vh;
 }
 
 .main {
     background-color: lightsalmon;
     height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+}
+
+.header {
+    background-color: white;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.content {
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.upper-header {
+    background-color: yellow;
+}
+
+.lower-header {
+    background-color: brown;
+}
+
+.projects {
+    background-color: darkgreen;
+}
+
+.content-sidebar {
+    background-color: lightskyblue;
+}
+
+.announcements {
+    background-color: violet;
+}
+
+.trending {
+    background-color: darkkhaki;
 }
