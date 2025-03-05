@@ -10,6 +10,7 @@
 .sidebar {
     background-color: rgb(54, 169, 241);
     height: 100vh;
+    color: white;
 }
 
 .main {
@@ -54,3 +55,18 @@
 .trending {
     background-color: darkkhaki;
 }
+
+.dashboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 30px;
+}
+
+.dashboard-icon {
+    fill: white;
+    height: 50px;
+}
+
