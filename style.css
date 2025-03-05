@@ -65,8 +65,22 @@
     margin: 30px;
 }
 
-.dashboard-icon {
+.dashboard svg {
     fill: white;
     height: 50px;
 }
 
+.sidebar-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 113px;
+    gap: 10px;
+    font-size: 24px;
+}
+
+.sidebar-header svg {
+    fill: white;
+    height: 25px;
+}
