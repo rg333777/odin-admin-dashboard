@@ -204,5 +204,21 @@
 }
 
 .content-sidebar {
-    background-color: pink;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 24px 18px;
+}
+
+.trending-content {
+    padding: 20px 0px;
+}
+
+.trending-content img {
+    height: 50px;
+    width: 50px;
+}
+
+.user {
+    display: flex;
 }
