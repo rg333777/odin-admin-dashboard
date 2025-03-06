@@ -35,8 +35,8 @@
     grid-template-columns: 3fr 1fr;
 }
 
-.lower-header {
-    background-color: brown;
+.upper-header {
+    background-color: yellow;
 }
 
 .projects {
@@ -94,4 +94,53 @@
 
 .upper-header-left > svg {
     height: 50px;
+}
+
+.lower-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px 0 50px;
+}
+
+.lower-header-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.lower-header-left > img {
+    height: 100px;
+    width: 100px;
+}
+
+.lower-header-left > div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.small-text {
+    font-size: 15px;
+}
+
+.lower-header-left > div:nth-child(2) {
+    font-size: 25px;
+}
+
+.lower-header-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 75px;
+}
+
+.lower-header-right > button {
+    background-color:  rgb(54, 169, 241);
+    color: white;
+    padding: 15px 35px;
+    border-radius: 30px;
+    font-size: 20px;
+    border-color: white;
 }
