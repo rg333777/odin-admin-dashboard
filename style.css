@@ -17,7 +17,7 @@
 }
 
 .main {
-    background-color: lightsalmon;
+    background-color: whitesmoke;
     height: 100vh;
     display: grid;
     grid-template-rows: 1fr 4fr;
@@ -33,22 +33,6 @@
     background-color: whitesmoke;
     display: grid;
     grid-template-columns: 3fr 1fr;
-}
-
-.projects {
-    background-color: darkgreen;
-}
-
-.content-sidebar {
-    background-color: lightskyblue;
-}
-
-.announcements {
-    background-color: violet;
-}
-
-.trending {
-    background-color: darkkhaki;
 }
 
 .dashboard {
@@ -184,4 +168,25 @@
     border-radius: 30px;
     font-size: 20px;
     border: 1px solid white;
+}
+
+.projects {
+    padding: 25px;
+}
+
+.project-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.project {
+    border: 1px black solid;
+}
+
+.project-icons svg {
+    height: 30px;
+}
+
+.content-sidebar {
+    background-color: pink;
 }
