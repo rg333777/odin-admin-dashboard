@@ -177,10 +177,26 @@
 .project-grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
 }
 
 .project {
-    border: 1px black solid;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px gray;
+    border-left: 15px gold solid;
+}
+
+.project-icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    padding-right: 10px;
 }
 
 .project-icons svg {
