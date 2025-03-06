@@ -35,10 +35,6 @@
     grid-template-columns: 3fr 1fr;
 }
 
-.upper-header {
-    background-color: yellow;
-}
-
 .projects {
     background-color: darkgreen;
 }
@@ -92,8 +88,53 @@
     margin-top: 50px;
 }
 
+.upper-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px 0 50px;
+}
+
+.upper-header-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.upper-header-left > input {
+    width: 750px;
+    height: 30px;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid gray;
+}
+
 .upper-header-left > svg {
-    height: 50px;
+    height: 30px;
+}
+
+.upper-header-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.upper-header-right > svg {
+    height: 30px;
+}
+
+.upper-header-right > img {
+    height: 75px;
+    width: 75px;
+}
+
+.upper-header-right > div {
+    font-size: 20px;
 }
 
 .lower-header {
@@ -142,5 +183,5 @@
     padding: 15px 35px;
     border-radius: 30px;
     font-size: 20px;
-    border-color: white;
+    border: 1px solid white;
 }
