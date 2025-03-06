@@ -206,19 +206,45 @@
 .content-sidebar {
     border: 2px solid black;
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 300px 300px;
     padding: 24px 18px;
 }
 
+.announcement-content {
+    background-color: white;
+}
+
+
+
 .trending-content {
-    padding: 20px 0px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: white;
+    border-radius: 12px;
+    margin-top: 10px;
 }
 
 .trending-content img {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
 }
 
 .user {
     display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.user-details {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.user-project {
+    color: darkgray;    
 }
